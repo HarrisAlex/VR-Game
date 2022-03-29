@@ -5350,6 +5350,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1351219354}
     m_Modifications:
+    - target: {fileID: 134689476982086766, guid: 39f6074d203d2024781bb8a49629ab20,
+        type: 3}
+      propertyPath: targetPortal
+      value: 
+      objectReference: {fileID: 7409980991357952701}
     - target: {fileID: 7409980991822058661, guid: 39f6074d203d2024781bb8a49629ab20,
         type: 3}
       propertyPath: m_Name
@@ -5418,6 +5423,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1786591636}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1786591638 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 134689476982086766, guid: 39f6074d203d2024781bb8a49629ab20,
+    type: 3}
+  m_PrefabInstance: {fileID: 1786591636}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a53efed265313499265753243b4f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &1808910592
 Mesh:
   m_ObjectHideFlags: 0
@@ -6693,6 +6710,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1251274463}
     m_Modifications:
+    - target: {fileID: 134689476982086766, guid: 39f6074d203d2024781bb8a49629ab20,
+        type: 3}
+      propertyPath: targetPortal
+      value: 
+      objectReference: {fileID: 1786591638}
     - target: {fileID: 7409980991822058661, guid: 39f6074d203d2024781bb8a49629ab20,
         type: 3}
       propertyPath: m_Name
@@ -6755,3 +6777,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39f6074d203d2024781bb8a49629ab20, type: 3}
+--- !u!114 &7409980991357952701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 134689476982086766, guid: 39f6074d203d2024781bb8a49629ab20,
+    type: 3}
+  m_PrefabInstance: {fileID: 7409980991357952700}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01a53efed265313499265753243b4f7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
