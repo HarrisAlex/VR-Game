@@ -14,7 +14,7 @@ public class Portal : MonoBehaviour
     private RenderTexture viewThroughRenderTexture;
     private Material viewThroughMaterial;
 
-    private Camera mainCamera;
+    public Camera mainCamera;
 
     private Vector4 vectorPlane;
 
@@ -27,8 +27,6 @@ public class Portal : MonoBehaviour
         viewThroughMaterial.mainTexture = viewThroughRenderTexture;
 
         portalCamera.targetTexture = viewThroughRenderTexture;
-
-        mainCamera = Camera.main;
 
         var plane = new Plane(normalVisible.forward, transform.position);
         vectorPlane = new Vector4(plane.normal.x, plane.normal.y, plane.normal.z, plane.distance);
